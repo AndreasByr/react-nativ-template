@@ -1,9 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native';
+import Template from './components/template/Template';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>
+        <h1> React Nativ Template</h1>
+      </Text>
+      <Template sampleTextProp="Hello World!" />
     </View>
   );
 }
